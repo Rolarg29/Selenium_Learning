@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
         public void setup() {
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\roliz\\Documentos\\chromedriver_win32\\chromedriver.exe");
             driver = new ChromeDriver();
-            //driver.get("https://rahulshettyacademy.com/loginpagePractise/");
+//            driver.get("https://rahulshettyacademy.com/loginpagePractise/");
         }
 
         @Test

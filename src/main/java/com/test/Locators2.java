@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,9 +13,13 @@ import java.time.Duration;
 public class Locators2 {
     public static void main(String[] args) throws InterruptedException {
 
+        //Additional measure to temporarily fix the compatibility issue with chrome 111 update and Selenium HTTP client
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");// might make the browser vulnerable if it process untrusted inputs.!!!
+
         //invoke the web driver and creating a new instance of the chrome driver
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\roliz\\Documentos\\chromedriver_win32\\chromedriver.exe");
-        ChromeDriver driver = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver(options);
         String name = "Rolando";
 
         //open the website
