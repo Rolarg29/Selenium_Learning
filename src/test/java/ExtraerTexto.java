@@ -24,7 +24,7 @@ public class ExtraerTexto {
 
     @AfterSuite
     public void tearDown(){
-        WebDriverSingleton.quit();
+//        WebDriverSingleton.quit();
     }
 
 

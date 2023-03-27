@@ -5,6 +5,7 @@ out/
 target/**/
 *.xml
 !pom.xml
+.idea/
 
 
 ### Eclipse ###

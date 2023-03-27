@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d298ac9c-6b3f-43d7-9d46-a7f8135a0565" name="Changes" comment="switch case for browsers">
+    <list default="true" id="d298ac9c-6b3f-43d7-9d46-a7f8135a0565" name="Changes" comment="uncomment quit driver">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/WebDriverSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExtraerTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtraerTexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +33,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2fe0b66d-9277-4243-a170-1d29c20476a4" />
+        <option name="url" value="https://github.com/Rolarg29/Selenium_Learning.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/test/Locators2.java" root0="SKIP_INSPECTION" />
@@ -65,12 +90,25 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ExtraerTexto">
+    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Locators" />
+      <module name="Selenium-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.Locators2" />
       <module name="Selenium-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,17 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-course" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginFormTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginFormTest.testValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-course" />
       <option name="PACKAGE_NAME" value="" />
@@ -139,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ExtraerTexto" />
+        <item itemvalue="Application.Locators2" />
+        <item itemvalue="Application.Locators" />
         <item itemvalue="TestNG.ExtraerTexto.TestPassword" />
         <item itemvalue="TestNG.LoginFormTest.testValidLogin" />
-        <item itemvalue="TestNG.LoginFormTest" />
-        <item itemvalue="Application.Locators2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +209,8 @@
       <workItem from="1678990335486" duration="82000" />
       <workItem from="1679437497680" duration="4122000" />
       <workItem from="1679461626157" duration="7000" />
-      <workItem from="1679866531542" duration="11088000" />
+      <workItem from="1679866531542" duration="13215000" />
+      <workItem from="1679931335815" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Selenium repo">
       <created>1678299439780</created>
@@ -219,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679880069523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="uncomment quit driver">
+      <created>1679880267303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679880267303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +277,8 @@
     <MESSAGE value="changes to gitignore files" />
     <MESSAGE value="singleton and page object model added" />
     <MESSAGE value="switch case for browsers" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch case for browsers" />
+    <MESSAGE value="uncomment quit driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="uncomment quit driver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
