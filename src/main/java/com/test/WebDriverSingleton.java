@@ -10,27 +10,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverSingleton {
     public static WebDriver driver = null;
-    public static String browserName = "firefox";
+    public static String browserName = "chrome";
 
     public static void initialize(){
         if(driver == null){
-            switch (browserName){
-                case "chrome":
+            switch (browserName) {
+                case "chrome" -> {
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--remote-allow-origins=*");
                     options.addArguments("--incognito");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(options);
-                    break;
-                case "firefox":
+                }
+                case "firefox" -> {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
-                    break;
-                case "edge":
+                }
+                case "edge" -> {
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
-                    break;
-
+                }
             }
         }
         assert driver != null;
