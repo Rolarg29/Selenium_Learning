@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d298ac9c-6b3f-43d7-9d46-a7f8135a0565" name="Changes" comment="singleton and page object model added" />
+    <list default="true" id="d298ac9c-6b3f-43d7-9d46-a7f8135a0565" name="Changes" comment="switch case for browsers">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExtraerTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtraerTexto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +182,7 @@
       <workItem from="1678990335486" duration="82000" />
       <workItem from="1679437497680" duration="4122000" />
       <workItem from="1679461626157" duration="7000" />
-      <workItem from="1679866531542" duration="10725000" />
+      <workItem from="1679866531542" duration="11088000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Selenium repo">
       <created>1678299439780</created>
@@ -210,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679879811512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="switch case for browsers">
+      <created>1679880069523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679880069523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +241,8 @@
     <MESSAGE value="changes due to chrome v111 compatibility issues with selenium" />
     <MESSAGE value="changes to gitignore files" />
     <MESSAGE value="singleton and page object model added" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton and page object model added" />
+    <MESSAGE value="switch case for browsers" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch case for browsers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
